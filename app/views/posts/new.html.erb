@@ -1,0 +1,14 @@
+<div class="private-square span3 offset4 text-center">
+  <h1>Upload Your Image</h1>
+  <%= simple_form_for @post do |f| %>
+  <%= f.input :title, label: 'Give a creative title to this unique photo!', placeholder: 'eg. Blowin in the Wind' %>
+  <br/>
+  <%= f.input :description, label: 'What does this photo make you feel like?' %>
+  <br/>
+  <%= f.button :submit, :class => 'btn btn-warning' %>
+  <% end %> 
+ 
+</div>
+
+
+
